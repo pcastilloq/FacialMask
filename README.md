@@ -1,7 +1,8 @@
 # FacialMask
-[Español]
 
-## Protector Facial Imprimible en 3D
+## Protector Facial Imprimible en 3D [Español]
+
+En este repositorio se detallan modelos, gcodes y print settings para imprimir las viseras para fabricar protectores faciales. 
 
 En el repositorio se encuentran dos archivos STL.
 
@@ -13,15 +14,15 @@ Está diseñado para usarse junto a una mica transparente tamaño oficio. Adicio
 
 * Mask_Oficio_mod.stl:
 
-Es una version modificada del STL anterior, reduciendo la cantidad de material para una mayor cantidad de impresiones. Se esta trabajando en mejorar el archivo para mantener la rigidez, disminuyendo los tiempos de impresion y material utilizado.
+Es una version modificada del STL anterior, reduciendo la cantidad de material para una mayor cantidad de impresiones. Se está trabajando en mejorar el archivo para mantener la rigidez, disminuyendo los tiempos de impresion y material utilizado.
 
 Adicionalmente se encuentran diversos archivos .Gcode los cuales poseen los codigos para imprimir las viseras con boquillas de 0.6 mm y 0.8mm.  
 
-Los codigos optimizan el tiempo de impresión, alcanzando aproximadamente 30 minutos por visera. 
+Los G codes optimizan el tiempo de impresión, alcanzando aproximadamente 20-25 minutos por visera. 
 
 * MaskOficio_08mm_22min.gcode:
 
-Es el gcode para imprimir la versión Mask_Oficio.stl con una boquilla de 0.8 mm en un tiempo estimado de 28 minutos.
+Es el gcode para imprimir la versión Mask_Oficio.stl con una boquilla de 0.8 mm en un tiempo estimado de 22 minutos.
 
 * MaskOficio_mod_08mm_19min.gcode:
 
